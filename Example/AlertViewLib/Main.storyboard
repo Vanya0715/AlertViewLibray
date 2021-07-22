@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AlertViewLib_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Foq-FW-Dxc">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <color key="backgroundColor" red="0.31226098540000002" green="0.75053554769999997" blue="0.73187053199999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHd-CQ-h0S">
+                                <rect key="frame" x="7" y="636" width="400" height="50"/>
+                                <color key="backgroundColor" red="0.49018880079999999" green="0.57992376609999996" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Y9c-oc-DwY"/>
+                                    <constraint firstAttribute="width" constant="400" id="qoh-rZ-4eP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <state key="normal" title="BOOK TICKET">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Success:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="m41-OC-mOA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tx-HH-GN5">
+                                <rect key="frame" x="7" y="736" width="400" height="51"/>
+                                <color key="backgroundColor" red="1" green="0.33482915159999999" blue="0.32202279569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="IoY-nQ-pji"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="VgH-qY-fiD"/>
+                                    <constraint firstAttribute="width" constant="400" id="Y9Q-zQ-WTi"/>
+                                    <constraint firstAttribute="height" constant="50" id="mEC-E1-hZg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="40"/>
+                                <state key="normal" title="EXIT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Exit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4kV-Pa-pIO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31459715960000001" green="0.78751105070000005" blue="0.66544669869999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Tx-HH-GN5" firstAttribute="top" secondItem="hHd-CQ-h0S" secondAttribute="bottom" constant="50" id="5ms-wQ-f7f"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="39" id="7sx-np-kzd"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="7" id="EzL-da-ZHz"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="7" id="Lg0-md-SCU"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VGi-03-7AS"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="XmW-xw-c2Q"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ZgK-Jc-cnY"/>
+                            <constraint firstAttribute="trailing" secondItem="hHd-CQ-h0S" secondAttribute="trailing" constant="7" id="dJi-gD-OlX"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="elR-lA-zR4"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Foq-FW-Dxc" secondAttribute="bottom" id="f6X-nS-6rm"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="592" id="gCq-Ai-MWd"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="6" id="gZy-8d-sYx"/>
+                            <constraint firstAttribute="trailing" secondItem="7Tx-HH-GN5" secondAttribute="trailing" constant="7" id="hE4-98-T8K"/>
+                            <constraint firstAttribute="trailing" secondItem="hHd-CQ-h0S" secondAttribute="trailing" constant="7" id="ipE-PB-BIq"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="pGM-NA-coV"/>
+                            <constraint firstItem="7Tx-HH-GN5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="7" id="pMB-K4-PT3"/>
+                            <constraint firstItem="Foq-FW-Dxc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rUy-65-RCQ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7Tx-HH-GN5" secondAttribute="bottom" constant="75" id="uBa-V3-0v5"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="592" id="vMP-jL-UTE"/>
+                            <constraint firstItem="hHd-CQ-h0S" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="592" id="xWD-SQ-iVa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hHd-CQ-h0S" secondAttribute="trailing" constant="39" id="y6g-bq-jii"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Foq-FW-Dxc" secondAttribute="trailing" id="yCL-sI-9fN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7Tx-HH-GN5" secondAttribute="bottom" constant="75" id="z4d-6u-IIw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.13043478260872" y="124.55357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="311" height="672"/>
+    </resources>
+</document>
