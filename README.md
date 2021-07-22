@@ -1,8 +1,8 @@
 # AlertViewLib
 
-[![CI Status](https://img.shields.io/travis/Vanya0715/AlertViewLib.svg?style=flat)](https://travis-ci.org/Vanya0715/AlertViewLib)
+
 [![Version](https://img.shields.io/cocoapods/v/AlertViewLib.svg?style=flat)](https://cocoapods.org/pods/AlertViewLib)
-[![License](https://img.shields.io/cocoapods/l/AlertViewLib.svg?style=flat)](https://cocoapods.org/pods/AlertViewLib)
+
 [![Platform](https://img.shields.io/cocoapods/p/AlertViewLib.svg?style=flat)](https://cocoapods.org/pods/AlertViewLib)
 
 ## Example
