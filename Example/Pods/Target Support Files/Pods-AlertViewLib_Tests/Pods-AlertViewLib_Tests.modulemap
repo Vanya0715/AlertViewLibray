@@ -1,0 +1,6 @@
+framework module Pods_AlertViewLib_Tests {
+  umbrella header "Pods-AlertViewLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

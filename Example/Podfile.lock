@@ -1,0 +1,16 @@
+PODS:
+  - AlertViewLib (0.1.0)
+
+DEPENDENCIES:
+  - AlertViewLib (from `../`)
+
+EXTERNAL SOURCES:
+  AlertViewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlertViewLib: 426a9e9002d3b793234f7725efa8d75a5cf93619
+
+PODFILE CHECKSUM: 6d4833807dd4ceb52864ae38261a0c91b159e9c9
+
+COCOAPODS: 1.10.1

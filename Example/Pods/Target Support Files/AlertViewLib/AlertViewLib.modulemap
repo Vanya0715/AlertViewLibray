@@ -1,0 +1,6 @@
+framework module AlertViewLib {
+  umbrella header "AlertViewLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
